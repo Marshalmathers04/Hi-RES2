@@ -255,7 +255,7 @@ select{
     margin: 10px 0;
     border-radius: 12px;
 }
-.footer{
+.in-footer-dickson{
     background-color: #FFF394;
     color: #9E6C00;
     text-align: center;
@@ -333,6 +333,10 @@ select{
     }
     .footer-content-text{
         flex-direction: column;
+        text-align: left;
+    }
+    .in-footer-dickson{
+        display: inline-block;
     }
     .footer-content{
         flex-direction: column;
@@ -360,5 +364,8 @@ select{
     }
     .forcompany-btn{
         display: none;
+    }
+    .footer-social-media{
+        justify-content: start;
     }
 }
