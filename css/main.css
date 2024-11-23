@@ -88,6 +88,7 @@ a:hover{
     flex-direction: column;
     justify-content: space-between;
     display: none;
+    margin-right: 10px;
 }
 .bar{
     width: 100%;
@@ -343,5 +344,21 @@ select{
     .accompany-container{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width:600px){
+    .input-container{
+        width: 300px;
+    }
+    .input-field{
+        margin: 0;
+    }
+    .additional-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .forcompany-btn{
+        display: none;
     }
 }
